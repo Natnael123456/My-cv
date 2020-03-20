@@ -1,14 +1,14 @@
 /* External CSS */
-p{
-    color: black    
-}
+
+
 body{
 
     background-color: grey ;
    
-    margin: 10px 50px;
+    margin: 10px auto;
     
 }
+
 header{
     background-color: rgba(12, 13, 54,0.3);
     position: fixed;
@@ -16,52 +16,169 @@ header{
     top: 0px;
     right: 0px;  
 }
+nav > ul > li{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+nav > ul > li{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    text-align: center;
+}  
+
+.footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.main{
+    display: flex;
+    padding: 25px;
+    margin: 100px 100px;
+    border-bottom: 2px solid black;
+}
+
+.logo > img{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    flex: 1;
+}
+
+.description{
+    flex: 4px;
+    margin: 50px 50px;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description > h1{
+    font-weight: bold;
+
+}
+
+.body{
+
+    padding: 25px;
+    margin: 40px 100px;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body > h3{
+    font-weight: bold;
+}
+.body >.Hobbies> ul{
+
+    list-style-type: square;
+
+}
+.body > .work > #title{
+    font-weight: bold;
+}
+
+
+/* Gallery */
+
+#gallerheader{
+position: relative;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2em;
+margin-top: 10%;
+margin-right: 100px;
+margin-left: 100px;
+text-transform: capitalize;
+border-bottom: 3px solid black;
+
+}
+.gallery{
+    margin: 50px 70px;
+    border-bottom: 3px solid black;
+
+}
+.row > img{
+    height: 600px;
+    width: 400px;
+
+}
+/* Blog */
+#container{
+
+    display: flex;
+    border-bottom: 2px solid black;
+    margin: 100px;
+
+}
 section{
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 30px;
-    margin-top: 50px;
-    margin-bottom: 70px;
-    
-    
-    
+    margin-top: 70px;
+
 }
 article{
     font-size: 15px;
     line-height: 25px;
     text-align: justify;
 
-   
 }
 .title{
     font-size: 23px;
     font-weight: bold;
 
 }
-.Date{
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-nav{
+/* contact */
+#contactmain{
+    display: flex;
+    padding: 25px;
+    margin: 100px 100px;
+    border-bottom: 2px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-/* LINK STYLE */
-nav > ul > li{
-    display: inline-block;
-    padding: 10px 3px;
-    font-size: 20px;
-    
+.contactmain > .form> #head{
+    font-weight: bolder;
+    font-size: 1.5em;
+
+
 }
-nav > ul >li > a{
-    text-decoration: none;
+#map{
+    height: 600px;
+    width: 500px;
+    border-radius: 2%;
+
 }
-img{
+.input{
+    height: 25px;
     width: 300px;
-    height: 300px;
-margin: 60px 55px;
+    border-radius: 6%;
+
 }
-h3{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 80px;
+#combo{
+    height: 25px;
+    width: 70px;
+
+}
+#textarea{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 3%;
+}
+#button{
+    border-radius: 10%;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: whitesmoke;
+    position: relative;
+}
+.map{
+    margin-left: 150px;
+
 }
