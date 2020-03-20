@@ -182,3 +182,12 @@ article{
     margin-left: 150px;
 
 }
+.Questions{
+text-align: center;
+
+}
+.Questions > a{
+    text-decoration: none;
+    font-size: 2.5em;
+
+}
