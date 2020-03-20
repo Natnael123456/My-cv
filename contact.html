@@ -19,6 +19,7 @@
                <li><a href="contact.html">Contact</a></li> 
                <li><a href="Gallery.html">Gallery</a></li> 
                <li><a href="Blog.html">Blog</a></li>
+               <li><a href="Mywork.html">Mywork</a></li>
             </ul>
         </nav>
     </header>
@@ -37,45 +38,50 @@
     <div class="contactmain">
         <div class="form">  
             <div id="head"> <h3>Contact me..</h3></div>
-        </div> 
+            <form method= "POST" action="MAILTO:it.natnael.zerihun@gmail.com" enctype="utf-8"> 
+                <table>
+                    <tr>
+                        <div<label for="FName">Firstname:</label>
+                        <div><input type="text" id="FName" name="FName" pattern="[A-Z]" placeholder="Alphabets"></div>
+                    
+                        <div><label for="sName">Second name:</label></div>
+                        <div><input type="text"  id="sName" name="sName"pattern="[A-Z] " placeholder="Alphabets"></div>            
+             
+                        <div><label for="email">Email:</label> <br></div>
+                        <div><input type="email" id="Email" name="Email"pattern="[A-Z] " placeholder="Example@gmail.com"></div>
+      
+                        <div><label for="Phone number">Phone number</label></div>
+                        <div><input type="integer"pattern="[0-9] " placeholder="+251-"></div>
+                    
+                      <div><label for="Country">Country</label></div>
+                    
+                       <div>
+                        <select name="country" id="">
+                            <option value="au">Australia</option>
+                        <option value="af">Africa</option>
+                        <option value="eu">Europe</option>
+                        </select>
+                       </div>
+                    
+                  
+                       <div><label for="Comment"> Leave your comment here....</label></div>
+                        <div><textarea name="comment" id="" cols="30" rows="10"></textarea></div>
+                   
+                        <div><input type="submit" value="submit"></div>
+                    </form>
+                    </div> 
+
+       
+                
+    
+      <div class="map">
+        <iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20University&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ytify.com">
+      </div> 
+
 
     </div>
             
-            <form method= "POST" action="MAILTO:it.natnael.zerihun@gmail.com" enctype="utf-8"> 
-            <table>
-                <tr>
-                    <div<label for="FName">Firstname:</label>
-                    <div><input type="text" id="FName" name="FName" pattern="[A-Z]" placeholder="Alphabets"></div>
-                
-                    <div><label for="sName">Second name:</label></div>
-                    <div><input type="text"  id="sName" name="sName"pattern="[A-Z] " placeholder="Alphabets"></div>            
-         
-                    <div><label for="email">Email:</label> <br></div>
-                    <div><input type="email" id="Email" name="Email"pattern="[A-Z] " placeholder="Example@gmail.com"></div>
-  
-                    <div><label for="Phone number">Phone number</label></div>
-                    <div><input type="integer"pattern="[0-9] " placeholder="+251-"></div>
-                
-                  <div><label for="Country">Country</label></div>
-                
-                   <div>
-                    <select name="country" id="">
-                        <option value="au">Australia</option>
-                    <option value="af">Africa</option>
-                    <option value="eu">Europe</option>
-                    </select>
-                   </div>
-                
-              
-                   <div><label for="Comment"> Leave your comment here....</label></div>
-                    <div><textarea name="comment" id="" cols="30" rows="10"></textarea></div>
-               
-                    <div><input type="submit" value="submit"></div>
-                 </form>
-    
-      <div class="map">
-        <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20University&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ytify.com"></a>
-      </div> 
+           
     
  
 
